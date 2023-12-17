@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mail Sender</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <div class="container">  
+        <form id="contact">
+          <h3>Quick Send Mail</h3>
+          <h4>Quick Send Mail, Send Mail with Spring Boot!</h4>
+          <fieldset>
+            <input class="fields" id="toMail" placeholder="To" type="email" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input class="fields" id="subject" placeholder="Subject" type="text" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <textarea class="fields" id="message" placeholder="Message" tabindex="5" required></textarea>
+          </fieldset>
+          <button id="contact-submit" type="button" onclick="sendMail()">Send Mail</button>
+        </form>
+        
+        
+      </div>
+
+
+
+    
+</body>
+</html>
